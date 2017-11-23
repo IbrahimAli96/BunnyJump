@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA5FB46A1FC6F843007CE62D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4691FC6F843007CE62D /* AppDelegate.swift */; };
+		CA5FB46C1FC6F843007CE62D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB46B1FC6F843007CE62D /* GameScene.sks */; };
+		CA5FB46E1FC6F843007CE62D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB46D1FC6F843007CE62D /* Actions.sks */; };
+		CA5FB4701FC6F843007CE62D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB46F1FC6F843007CE62D /* GameScene.swift */; };
+		CA5FB4721FC6F843007CE62D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4711FC6F843007CE62D /* GameViewController.swift */; };
+		CA5FB4751FC6F843007CE62D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4731FC6F843007CE62D /* Main.storyboard */; };
+		CA5FB4771FC6F843007CE62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4761FC6F843007CE62D /* Assets.xcassets */; };
+		CA5FB47A1FC6F843007CE62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4781FC6F843007CE62D /* LaunchScreen.storyboard */; };
+		CA5FB4851FC6F843007CE62D /* BunnyJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4841FC6F843007CE62D /* BunnyJumpTests.swift */; };
+		CA5FB4901FC6F844007CE62D /* BunnyJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB48F1FC6F844007CE62D /* BunnyJumpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5FB4811FC6F843007CE62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5FB45E1FC6F843007CE62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5FB4651FC6F843007CE62D;
+			remoteInfo = BunnyJump;
+		};
+		CA5FB48C1FC6F844007CE62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5FB45E1FC6F843007CE62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA5FB4651FC6F843007CE62D;
+			remoteInfo = BunnyJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA5FB4661FC6F843007CE62D /* BunnyJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BunnyJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5FB4691FC6F843007CE62D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA5FB46B1FC6F843007CE62D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CA5FB46D1FC6F843007CE62D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CA5FB46F1FC6F843007CE62D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CA5FB4711FC6F843007CE62D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CA5FB4741FC6F843007CE62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA5FB4761FC6F843007CE62D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5FB4791FC6F843007CE62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA5FB47B1FC6F843007CE62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5FB4801FC6F843007CE62D /* BunnyJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunnyJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5FB4841FC6F843007CE62D /* BunnyJumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyJumpTests.swift; sourceTree = "<group>"; };
+		CA5FB4861FC6F844007CE62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5FB48B1FC6F844007CE62D /* BunnyJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunnyJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5FB48F1FC6F844007CE62D /* BunnyJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyJumpUITests.swift; sourceTree = "<group>"; };
+		CA5FB4911FC6F844007CE62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5FB4631FC6F843007CE62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FB47D1FC6F843007CE62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FB4881FC6F844007CE62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA5FB45D1FC6F843007CE62D = {
+			isa = PBXGroup;
+			children = (
+				CA5FB4681FC6F843007CE62D /* BunnyJump */,
+				CA5FB4831FC6F843007CE62D /* BunnyJumpTests */,
+				CA5FB48E1FC6F844007CE62D /* BunnyJumpUITests */,
+				CA5FB4671FC6F843007CE62D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5FB4671FC6F843007CE62D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FB4661FC6F843007CE62D /* BunnyJump.app */,
+				CA5FB4801FC6F843007CE62D /* BunnyJumpTests.xctest */,
+				CA5FB48B1FC6F844007CE62D /* BunnyJumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5FB4681FC6F843007CE62D /* BunnyJump */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FB4691FC6F843007CE62D /* AppDelegate.swift */,
+				CA5FB46B1FC6F843007CE62D /* GameScene.sks */,
+				CA5FB46D1FC6F843007CE62D /* Actions.sks */,
+				CA5FB46F1FC6F843007CE62D /* GameScene.swift */,
+				CA5FB4711FC6F843007CE62D /* GameViewController.swift */,
+				CA5FB4731FC6F843007CE62D /* Main.storyboard */,
+				CA5FB4761FC6F843007CE62D /* Assets.xcassets */,
+				CA5FB4781FC6F843007CE62D /* LaunchScreen.storyboard */,
+				CA5FB47B1FC6F843007CE62D /* Info.plist */,
+			);
+			path = BunnyJump;
+			sourceTree = "<group>";
+		};
+		CA5FB4831FC6F843007CE62D /* BunnyJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FB4841FC6F843007CE62D /* BunnyJumpTests.swift */,
+				CA5FB4861FC6F844007CE62D /* Info.plist */,
+			);
+			path = BunnyJumpTests;
+			sourceTree = "<group>";
+		};
+		CA5FB48E1FC6F844007CE62D /* BunnyJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FB48F1FC6F844007CE62D /* BunnyJumpUITests.swift */,
+				CA5FB4911FC6F844007CE62D /* Info.plist */,
+			);
+			path = BunnyJumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5FB4651FC6F843007CE62D /* BunnyJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5FB4941FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJump" */;
+			buildPhases = (
+				CA5FB4621FC6F843007CE62D /* Sources */,
+				CA5FB4631FC6F843007CE62D /* Frameworks */,
+				CA5FB4641FC6F843007CE62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BunnyJump;
+			productName = BunnyJump;
+			productReference = CA5FB4661FC6F843007CE62D /* BunnyJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA5FB47F1FC6F843007CE62D /* BunnyJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5FB4971FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJumpTests" */;
+			buildPhases = (
+				CA5FB47C1FC6F843007CE62D /* Sources */,
+				CA5FB47D1FC6F843007CE62D /* Frameworks */,
+				CA5FB47E1FC6F843007CE62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5FB4821FC6F843007CE62D /* PBXTargetDependency */,
+			);
+			name = BunnyJumpTests;
+			productName = BunnyJumpTests;
+			productReference = CA5FB4801FC6F843007CE62D /* BunnyJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA5FB48A1FC6F844007CE62D /* BunnyJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5FB49A1FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJumpUITests" */;
+			buildPhases = (
+				CA5FB4871FC6F844007CE62D /* Sources */,
+				CA5FB4881FC6F844007CE62D /* Frameworks */,
+				CA5FB4891FC6F844007CE62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5FB48D1FC6F844007CE62D /* PBXTargetDependency */,
+			);
+			name = BunnyJumpUITests;
+			productName = BunnyJumpUITests;
+			productReference = CA5FB48B1FC6F844007CE62D /* BunnyJumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5FB45E1FC6F843007CE62D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ibrahim Ali";
+				TargetAttributes = {
+					CA5FB4651FC6F843007CE62D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					CA5FB47F1FC6F843007CE62D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA5FB4651FC6F843007CE62D;
+					};
+					CA5FB48A1FC6F844007CE62D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA5FB4651FC6F843007CE62D;
+					};
+				};
+			};
+			buildConfigurationList = CA5FB4611FC6F843007CE62D /* Build configuration list for PBXProject "BunnyJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5FB45D1FC6F843007CE62D;
+			productRefGroup = CA5FB4671FC6F843007CE62D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA5FB4651FC6F843007CE62D /* BunnyJump */,
+				CA5FB47F1FC6F843007CE62D /* BunnyJumpTests */,
+				CA5FB48A1FC6F844007CE62D /* BunnyJumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5FB4641FC6F843007CE62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5FB4751FC6F843007CE62D /* Main.storyboard in Resources */,
+				CA5FB46C1FC6F843007CE62D /* GameScene.sks in Resources */,
+				CA5FB4771FC6F843007CE62D /* Assets.xcassets in Resources */,
+				CA5FB47A1FC6F843007CE62D /* LaunchScreen.storyboard in Resources */,
+				CA5FB46E1FC6F843007CE62D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FB47E1FC6F843007CE62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FB4891FC6F844007CE62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5FB4621FC6F843007CE62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5FB4701FC6F843007CE62D /* GameScene.swift in Sources */,
+				CA5FB4721FC6F843007CE62D /* GameViewController.swift in Sources */,
+				CA5FB46A1FC6F843007CE62D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FB47C1FC6F843007CE62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5FB4851FC6F843007CE62D /* BunnyJumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5FB4871FC6F844007CE62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5FB4901FC6F844007CE62D /* BunnyJumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5FB4821FC6F843007CE62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5FB4651FC6F843007CE62D /* BunnyJump */;
+			targetProxy = CA5FB4811FC6F843007CE62D /* PBXContainerItemProxy */;
+		};
+		CA5FB48D1FC6F844007CE62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA5FB4651FC6F843007CE62D /* BunnyJump */;
+			targetProxy = CA5FB48C1FC6F844007CE62D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA5FB4731FC6F843007CE62D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5FB4741FC6F843007CE62D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA5FB4781FC6F843007CE62D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5FB4791FC6F843007CE62D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5FB4921FC6F844007CE62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA5FB4931FC6F844007CE62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5FB4951FC6F844007CE62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BunnyJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobileDevCW.BunnyJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA5FB4961FC6F844007CE62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BunnyJump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobileDevCW.BunnyJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CA5FB4981FC6F844007CE62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BunnyJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobileDevCW.BunnyJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BunnyJump.app/BunnyJump";
+			};
+			name = Debug;
+		};
+		CA5FB4991FC6F844007CE62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BunnyJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobileDevCW.BunnyJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BunnyJump.app/BunnyJump";
+			};
+			name = Release;
+		};
+		CA5FB49B1FC6F844007CE62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BunnyJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobileDevCW.BunnyJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BunnyJump;
+			};
+			name = Debug;
+		};
+		CA5FB49C1FC6F844007CE62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BunnyJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobileDevCW.BunnyJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BunnyJump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5FB4611FC6F843007CE62D /* Build configuration list for PBXProject "BunnyJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5FB4921FC6F844007CE62D /* Debug */,
+				CA5FB4931FC6F844007CE62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5FB4941FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5FB4951FC6F844007CE62D /* Debug */,
+				CA5FB4961FC6F844007CE62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA5FB4971FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5FB4981FC6F844007CE62D /* Debug */,
+				CA5FB4991FC6F844007CE62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA5FB49A1FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5FB49B1FC6F844007CE62D /* Debug */,
+				CA5FB49C1FC6F844007CE62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA5FB45E1FC6F843007CE62D /* Project object */;
+}
