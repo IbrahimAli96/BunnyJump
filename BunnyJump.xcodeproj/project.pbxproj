@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA17B4B11FC85EA6000DC178 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17B4B01FC85EA6000DC178 /* Player.swift */; };
 		CA5FB46A1FC6F843007CE62D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4691FC6F843007CE62D /* AppDelegate.swift */; };
-		CA5FB46C1FC6F843007CE62D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB46B1FC6F843007CE62D /* GameScene.sks */; };
 		CA5FB46E1FC6F843007CE62D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB46D1FC6F843007CE62D /* Actions.sks */; };
-		CA5FB4701FC6F843007CE62D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB46F1FC6F843007CE62D /* GameScene.swift */; };
 		CA5FB4721FC6F843007CE62D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4711FC6F843007CE62D /* GameViewController.swift */; };
 		CA5FB4751FC6F843007CE62D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4731FC6F843007CE62D /* Main.storyboard */; };
 		CA5FB4771FC6F843007CE62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4761FC6F843007CE62D /* Assets.xcassets */; };
 		CA5FB47A1FC6F843007CE62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4781FC6F843007CE62D /* LaunchScreen.storyboard */; };
 		CA5FB4851FC6F843007CE62D /* BunnyJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4841FC6F843007CE62D /* BunnyJumpTests.swift */; };
 		CA5FB4901FC6F844007CE62D /* BunnyJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB48F1FC6F844007CE62D /* BunnyJumpUITests.swift */; };
+		CA5FB49F1FC6FA18007CE62D /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB49E1FC6FA18007CE62D /* MainMenu.sks */; };
+		CA5FB4A31FC6FADE007CE62D /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4A21FC6FADE007CE62D /* MainMenuScene.swift */; };
+		CA5FB4A51FC6FBEE007CE62D /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA5FB4A41FC6FBEE007CE62D /* GameplayScene.sks */; };
+		CA5FB4A71FC6FC1F007CE62D /* GameplaySceneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5FB4A61FC6FC1F007CE62D /* GameplaySceneClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA17B4B01FC85EA6000DC178 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CA5FB4661FC6F843007CE62D /* BunnyJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BunnyJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5FB4691FC6F843007CE62D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA5FB46B1FC6F843007CE62D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		CA5FB46D1FC6F843007CE62D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		CA5FB46F1FC6F843007CE62D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CA5FB4711FC6F843007CE62D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CA5FB4741FC6F843007CE62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5FB4761FC6F843007CE62D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		CA5FB48B1FC6F844007CE62D /* BunnyJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BunnyJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5FB48F1FC6F844007CE62D /* BunnyJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyJumpUITests.swift; sourceTree = "<group>"; };
 		CA5FB4911FC6F844007CE62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5FB49E1FC6FA18007CE62D /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		CA5FB4A21FC6FADE007CE62D /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		CA5FB4A41FC6FBEE007CE62D /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		CA5FB4A61FC6FC1F007CE62D /* GameplaySceneClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplaySceneClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA17B4AF1FC85E7B000DC178 /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				CA17B4B01FC85EA6000DC178 /* Player.swift */,
+			);
+			name = "Player Class";
+			sourceTree = "<group>";
+		};
 		CA5FB45D1FC6F843007CE62D = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +117,10 @@
 		CA5FB4681FC6F843007CE62D /* BunnyJump */ = {
 			isa = PBXGroup;
 			children = (
+				CA5FB4A01FC6FA65007CE62D /* Classes */,
+				CA5FB49D1FC6F9D7007CE62D /* Scenes */,
 				CA5FB4691FC6F843007CE62D /* AppDelegate.swift */,
-				CA5FB46B1FC6F843007CE62D /* GameScene.sks */,
 				CA5FB46D1FC6F843007CE62D /* Actions.sks */,
-				CA5FB46F1FC6F843007CE62D /* GameScene.swift */,
 				CA5FB4711FC6F843007CE62D /* GameViewController.swift */,
 				CA5FB4731FC6F843007CE62D /* Main.storyboard */,
 				CA5FB4761FC6F843007CE62D /* Assets.xcassets */,
@@ -132,6 +146,33 @@
 				CA5FB4911FC6F844007CE62D /* Info.plist */,
 			);
 			path = BunnyJumpUITests;
+			sourceTree = "<group>";
+		};
+		CA5FB49D1FC6F9D7007CE62D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FB49E1FC6FA18007CE62D /* MainMenu.sks */,
+				CA5FB4A41FC6FBEE007CE62D /* GameplayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		CA5FB4A01FC6FA65007CE62D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA17B4AF1FC85E7B000DC178 /* Player Class */,
+				CA5FB4A11FC6FA80007CE62D /* Scene Classes */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CA5FB4A11FC6FA80007CE62D /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA5FB4A21FC6FADE007CE62D /* MainMenuScene.swift */,
+				CA5FB4A61FC6FC1F007CE62D /* GameplaySceneClass.swift */,
+			);
+			name = "Scene Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5FB4751FC6F843007CE62D /* Main.storyboard in Resources */,
-				CA5FB46C1FC6F843007CE62D /* GameScene.sks in Resources */,
 				CA5FB4771FC6F843007CE62D /* Assets.xcassets in Resources */,
 				CA5FB47A1FC6F843007CE62D /* LaunchScreen.storyboard in Resources */,
+				CA5FB49F1FC6FA18007CE62D /* MainMenu.sks in Resources */,
+				CA5FB4A51FC6FBEE007CE62D /* GameplayScene.sks in Resources */,
 				CA5FB46E1FC6F843007CE62D /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5FB4701FC6F843007CE62D /* GameScene.swift in Sources */,
+				CA5FB4A31FC6FADE007CE62D /* MainMenuScene.swift in Sources */,
 				CA5FB4721FC6F843007CE62D /* GameViewController.swift in Sources */,
 				CA5FB46A1FC6F843007CE62D /* AppDelegate.swift in Sources */,
+				CA17B4B11FC85EA6000DC178 /* Player.swift in Sources */,
+				CA5FB4A71FC6FC1F007CE62D /* GameplaySceneClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +561,7 @@
 				CA5FB4961FC6F844007CE62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5FB4971FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJumpTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +570,7 @@
 				CA5FB4991FC6F844007CE62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5FB49A1FC6F844007CE62D /* Build configuration list for PBXNativeTarget "BunnyJumpUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +579,7 @@
 				CA5FB49C1FC6F844007CE62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
